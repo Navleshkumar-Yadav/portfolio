@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fe72a3f090.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="image/Portfolio.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#Services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#Contact">CONTACT</a></li>
+                <i class="fa-solid fa-circle-xmark"onclick="closemenu()" ></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        
+        <div class="header-text">
+            
+            <h1>Hi, I'm Navlesh kumar</h1>
+            <h3>And I'm <span class="multiple-text"></span></h3>
+            
+        </div>
+        </div>
+    </div>
+    <!-------about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/navlesh2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About me</h1>
+                   
+                    <p>Hii Everyone Guys, I am Navlesh kumar Yadav from Bihar,I am currently Pursing B.tech(CSE) from lovely professional university.<br>
+                        I am interested about learning programming language and new technology putting all of my knowledge as well as my experience through web technology and Innovations.
+                        
+                        <br>"THANK YOU".
+                   </p>
+                     <div class="tab-tittle">
+                        <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('PROJECTS')">PROJECTS</p>
+                        <p class="tab-links"onclick="opentab('EDUCATION')">EDUCATION</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="SKILLS">
+                        <ul>
+                            <li><span>SOFTWARE DEVELOPMENT</span><br>Make chatbot for e-commerce website</li>
+                            <li><span>WEB DEVELOPMENT</span><br>Building website with react</li>
+                            <li><span>App development</span><br>Building ios/Android app</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="PROJECTS">
+                        <ul>
+                            <li><span>E-COMMERCE WEBSITE</span><br>Making E-commerce website like flipkart and I am also add payment gateway features.</li>
+                            <li><span>CAR RENTAL WEBSITE</span><br>This website helps us to rent a car for some days.</li>
+                            <li><span>ELEARNING WEBSITE</span><br>Making Elearning platform website.</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="EDUCATION">
+                        <ul>
+                            <li><span>2020</span><br>Class X at Madhuban central school with grade 80%</li>
+                            <li><span>2022</span><br>Intermediate at Madhuban central school with grade 85%</li>
+                            <li><span>2022-2026</span><br> pursing B.Tech cse  from Lpu<li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------services-------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>We provide the best web design of a website and responsive for any types of screen size.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>We provide the best ui desing for mobile application and a website with user friendly Design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-apple-whole"></i>
+                    <h2>App development</h2>
+                    <p>We make the app with new technology and also Advance application for ios and Andriod.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png">
+                    <div class="layer">
+                        <h3>ELEARNING WEBSITE</h3>
+                        <p>Making Elearning platform website.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png">
+                    <div class="layer">
+                        <h3>CAR RENTAL WEBSITE</h3>
+                        <p>This website helps us to rent a car for some days.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png">
+                    <div class="layer">
+                        <h3>E-COMMERCE WEBSITE</h3>
+                        <p>Making E-commerce website like flipkart and I am also add payment gateway features.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!----------contact-->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kumarnavlesh604@gmail</p>
+                    <p><i class="fa-solid fa-phone"></i>6207030880</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100041543507263&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Navlesh44516758"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/kumarnavlesh604/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/navlesh-kumar-576b23255/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/Graphic Designer.pdf"  download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                     
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="Message"  rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                  
+                
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright by <i class="fa-solid fa-heart"></i>Navlesh kumar</p>
+
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzUXWihf-ZhCdBWqjmDII4ZJyXGK5QsuLBmmlxk3TIfZqKTgUj9r1O0LvddTHBHl-Cl/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Messege sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+</html>
